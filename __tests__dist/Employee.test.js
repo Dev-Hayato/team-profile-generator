@@ -2,10 +2,10 @@
 const Employee = require("../lib/Employee");
 
 // create a suite with describe
-describe("Employee", () =>(
+describe("Employee", () => {
     describe("constructor", () => {
                 // test for name id and email
-        it("sets name property", () => {
+        it("sets name, id, and email properties", () => {
         // arrange
             const name = "Israel";
         // act
